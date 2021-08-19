@@ -1,0 +1,50 @@
+.login {
+    background-image:linear-gradient(black, red) ;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100vw;
+    height: 70vh;
+    margin-top: 10px;
+    padding: 10px;
+    overflow: scroll;
+
+}
+.login>h1{
+    padding: 20px;
+}
+.login>p {
+    padding: 15px;
+    font-size: 1.4rem;
+
+}
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+}
+.form>input {
+    padding: 7px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.login>button {
+    height: 40px;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+.btn{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.btn>button {
+    height: 50px;
+    width: 100px;
+    margin-top: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
